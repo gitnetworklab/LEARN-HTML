@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            *** GITNETWORKLAB-HTML ***
+        </title>
+        <style>
+            body {background-color: rgb(190, 247, 137);}
+        </style>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js">
+            
+        </script>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, JavaScript, CSS">
+    </head>
+    <body>
+        <h1>
+            Welcome !
+        </h1>
+        <p>
+            <h2>
+                is my <b>Master</b> webpage.
+            </h2>
+            <h3>
+                <strong>
+                This is my second line.
+                </strong>
+            </h3>
+            <em>
+                This is my third line.
+            </em>
+        </p>
+        <p>
+            This is my <i>Last</i> line.
+        </p>
+    </body>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Company</th>
+                <th>EMP ID</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Satish Bodhgire</td>
+                <td>Capgemini</td>
+                <td>116160</td>
+                <td>satish@capgemini.com</td>
+            </tr>
+            <tr>
+                <td>Monika Rahate</td>
+                <td>Wipro</td>
+                <td>453829</td>
+                <td>monika@wipro.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <form action="/contactme" method="post">
+        <fieldset>
+            <legend>Enter Your Details</legend>
+            <label for="user_email">E-mail : </label>
+            <input type="email" id="useremail" name="user_email" placeholder="Enter email">
+            <br>
+            <label for="user_name">Name : </label>
+            <input type="text" id="username" name="user_name" placeholder="Enter Name">
+            <br>
+            <label for="user_pass">Password : </label>
+            <input type="password" id="userpass" name="user_pass" placeholder="Enter Password">
+            <br>
+            <label for="cb_male">Gender : </label>
+            <input type="checkbox" id="cbmale" name="cb_male" value="Male">
+            <input type="checkbox" id="cbfemale" name="cb_female" value="FeMale">
+            <br>
+            <label for="n_gender">Gender : </label>
+            <input type="radio" id="rd_gendor" name="n_gender" value="Male">
+            <input type="radio" id="cbfemale" name="n_gender" value="FeMale">
+            <br>
+            <label for="n_datetime">Select Date and Time : </label>
+            <input type="datetime-local" name="n_datetime"
+        </fieldset>
+        <fieldset>
+            <legend>Personal Data</legend>
+            <label for="n_usermsg">Message me : </label>
+            <textarea id="ta_usermsg" name="n_usermsg"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Dropdown</legend>
+            <label for="n_usermsg">Message me : </label>
+            <select id="slid_company" name="sln_company">
+                <option>Capgemini</option>
+                <option selected>Wipro</option>
+                <option>Infosys</option>
+            </select>
+            <textarea id="ta_usermsg" name="n_usermsg"></textarea>
+            <br>
+        </fieldset>
+        <br>
+        <button type="submit">Submit the form</button>
+    </form>
+
+
+</html>
